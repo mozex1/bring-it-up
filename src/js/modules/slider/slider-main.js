@@ -1,8 +1,8 @@
 import Slider from './slider';
 
 export default class MainSlider extends Slider {
-    constructor(page, btns) {
-        super(page, btns);
+    constructor(btns) {
+        super(btns);
     }
 
     showSlides(n) {
@@ -35,7 +35,7 @@ export default class MainSlider extends Slider {
     }
 
     plusSlides(n) {
-        this.showSlides(this.slideIndex += n)
+        this.showSlides(this.slideIndex += n);
     }
 
     render() {
