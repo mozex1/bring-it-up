@@ -2,6 +2,8 @@
 /.php
 .php.js
 
+.jshintrc
+
 /coverage
 
 /build
